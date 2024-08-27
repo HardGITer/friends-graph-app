@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "8b8f2a88-02d6-43e2-b994-92879f54571b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6073786"
+	},
+	"item": [
+		{
+			"name": "http://localhost/find-shortest-connection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"from_id\": 3, \"to_id\": 7}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/find-shortest-connection",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"find-shortest-connection"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
